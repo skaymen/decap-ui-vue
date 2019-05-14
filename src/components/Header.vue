@@ -1,7 +1,8 @@
 <template>
   <div class="header">
-    <h1>DECAP Database Editor</h1>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <h1>DECAP Database Editor </h1>
+    <img alt="USGS logo" src="../assets/usgs_logo.svg" id="usgs-logo">
+    
 
     <!-- <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -48,22 +49,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+
+h1 {
+  font-size: 5em;
 }
 
 .header {
-  background-color: lightblue;
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2ch;
 }
 </style>
